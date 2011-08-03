@@ -1,6 +1,17 @@
-h1 {font-family:Courier;text-align:center;color:blue;}
+h1 {font-family:Helvetica;text-align:center;color:blue;size:40px;}
+h2 {font-family:Helvetica;text-align:center;}
 
 p {font-family:Helvetica;}
 p.center {text-align:center;}
 
-#footer {font-family:Courier; text-align:center;}
+/*input.text {height:50px; font-height:40px;}*/
+
+#footer {font-family:Garamond; text-align:center;}
+
+div.center {display:block; text-align:center; margin-top:50px; margin-bottom:50px;}
+a.hidden {text-decoration:none;}
+
+a:visited {color:blue;}
+a:hover {color:black;}
+
+img {display:block;	margin-left:auto; margin-right:auto; margin-bottom:50px;}

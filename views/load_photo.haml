@@ -1,0 +1,6 @@
+%div.center
+	%p.center(style="#{font_color};") #{instruction}
+	%form(action='/flip' method='POST')
+		%input.text(type='text' name='url' value=@url)
+		%br/
+		%input(type='submit' value='Flip!')
