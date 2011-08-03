@@ -28,7 +28,8 @@ post /\/flip\/?/ do
   secret.close
   
   afx = AviaryFX::API.new(key, secret_key)
-  if @url == nil.to_s
+
+  if @url.to_s == nil.to_s
     redirect '/error'
   end
   
