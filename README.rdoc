@@ -1,6 +1,13 @@
 =PhotoFlip
+
+==Start Server
+  ruby -rubygems main.rb
+
 ==Developer Key
 In order to use this, secret.txt must exist in the root directory and be filled out correctly. The format is:
  key
  secret_key
 where key and secret_key are given to you for use with Aviary's Effects API
+
+==Notes
+Only valid URLs are accepted at the moment
